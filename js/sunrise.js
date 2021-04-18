@@ -1,5 +1,5 @@
 // import { saveUserToSessionCookie, checkUserSignedIn } from './cookie.js'
-
+import {apiHeaders} from './api.js';
 //------------------------------------------------------------------------------------------------------------
 //get location and show the time of sunrise:
 if (window.navigator.geolocation) {
@@ -15,10 +15,11 @@ function success(position) {
 
     fetch(`https://geo-services-by-mvpc-com.p.rapidapi.com/sun_positions?location=${location}&date=${date}`, {
         "method": "GET",
-        "headers": {
-            "x-rapidapi-key": "1a7c023b07msh369e3890142c167p1921e9jsnfa3fd20869f8",
-            "x-rapidapi-host": "geo-services-by-mvpc-com.p.rapidapi.com"
-        }
+        "headers": apiHeaders
+        // {
+        //     "x-rapidapi-key": "1a7c023b07msh369e3890142c167p1921e9jsnfa3fd20869f8",
+        //     "x-rapidapi-host": "geo-services-by-mvpc-com.p.rapidapi.com"
+        // }
     })
         .then(data => data.json())
         .then(response => {
