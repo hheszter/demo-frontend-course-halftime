@@ -1,0 +1,90 @@
+@import 'style.css';
+
+:root {
+    --infosHeight: 1.2rem;
+}
+
+.modal-background {
+    background: var(--ng-grey);
+    opacity: 0.7;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 109;
+}
+
+#gallery-modal {
+    background: var(--ng-grey);
+    width: 100vw;
+    max-height: 90vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 110;
+
+    display: none;
+}
+
+#gallery-modal .container {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 80vh;
+}
+
+/*main image div*/
+.gallery-modal-main {
+    max-height: 80vh;
+}
+
+.gallery-modal-main img {
+    width: 100%;
+    height: 100%;
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+/*arrows on the left and right side:*/
+.navigation {
+    height: 100%;
+    background: var(--ng-grey);
+    display: none;
+}
+
+.navigation:hover{
+    cursor: pointer;
+}
+
+.navigation img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.arrow.left {
+    transform: rotate(45deg);
+}
+.arrow.right {
+    transform: rotate(45deg);
+}
+
+/*info span*/
+.infos {
+    height: var(--infosHeight);
+    font-weight: 100;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    #gallery-modal {
+        width: 90vw;
+    }
+
+    .navigation {
+        display: block;
+    }
+}

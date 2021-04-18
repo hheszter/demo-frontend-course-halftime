@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="National Geographic's Nature Photo Community">
+
+    <title>demo website</title>
+
+    <link rel="stylesheet" href="../css/sunrise.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class=" nav__link">Back to home</a>
+        </nav>
+    </header>
+    <main>
+        <section class="sun-title">
+            <h1>Golden Sunrise</h1>
+            <p><small><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore iste, ducimus veritatis
+                        doloribus consequuntur amet nisi facilis suscipit aliquam explicabo cum adipisci eum maiores?
+                        Hic ipsam repellendus sit possimus repellat.</em></small></p>
+        </section>
+        <section class="sunrise">
+            <div class="sunrise-image">
+                <img src="../03-project-nature-images/93cc007ed900e59bafa4995347b8e3e8.jpeg" alt="sunrise">
+                <div class="sunrise-image-border"></div>
+            </div>
+            <div class="sunrise-text-corner">
+                <img class="corner top-right" src="../03-project-nature-images/svg-corners/corner-top-right.svg"
+                    alt="svg-corner">
+                <div class="sunrise-text">
+                    <h3>Info:</h3>
+                    <p>Photographer: Julian Ping</p>
+                    <p>Place: Bagan, Myanmar</p>
+                    <p>Date: 10/09/2018</p>
+                </div>
+                <img class="corner bottom-left" src="../03-project-nature-images/svg-corners/corner-bottom-left.svg"
+                    alt="svg-corner">
+            </div>
+        </section>
+
+        <section>
+            <article class="sunrise-story">
+                <p>They must be delivered safely or other star systems will suffer the same fate as Alderaan. Your
+                    destiny lies along a different path than mine. The Force will be with you...always! Boy you said it,
+                    Chewie. Where did you dig up that old fossil? Ben is a great man. Yeah, great at getting us into
+                    trouble. I didn't hear you give any ideas... Well, anything would be better than just hanging around
+                    waiting for him to pick us up... Who do you think...</p>
+
+                <div class="sunrise-time">
+                    <p>The time of sunrise on your location: <span id="sunriseTime" class="underline"></span> !</p>
+                </div>
+                <p>I'm not going anywhere. They're going to execute her. Look, a few minutes ago you said you didn't
+                    want to just wait here to be captured. Now all you want to do is stay. Marching into the detention
+                    area is not what I had in mind. But they're going to kill her! Better her than me... She's rich.
+                    Rich? Yes. Rich, powerful! Listen, if you were to rescue her, the reward would be... What? Well more
+                    wealth that you can imagine. I don't know, I can imagine quite a bit! You'll get it! I better! You
+                    will...</p>
+
+                <p>The approach will not be easy. You are required to maneuver straight down this trench and skim the
+                    surface to this point. The target area is only two meters wide. It's a small thermal exhaust port,
+                    right below the main port. The shaft leads directly to the reactor system. A precise hit will start
+                    a chain reaction which should destroy the station. Only a precise hit will set up a chain reaction.
+                    The shaft is ray-shielded, so you'll have to use proton torpedoes. That's impossible, even for a
+                    computer. It's not impossible. I used to bull's-eye womp rats in my T-sixteen back home. They're not
+                    much bigger than two meters. Man your ships! And may the Force be with you!</p>
+
+                <p>I hope the old man got that tractor beam out if commission, or this is going to be a real short trip.
+                    Okay, hit it! We're coming up on the sentry ships. Hold 'em off! Angle the deflector shields while I
+                    charge up the main guns! I can't believe he's gone. There wasn't anything you could have done. Come
+                    on, buddy, we're not out of this yet! You in, kid? Okay, stay sharp!</p>
+
+                <p>Obi-Wan is here. The Force is with him. If you're right, he must not be allowed to escape. Escape is
+                    not his plan. I must face him alone.</p>
+            </article>
+        </section>
+        <div class="upload">
+            <button id="uploadBtn" class="underline btn-yellow" disabled>Upload my sunrise photo</button>
+        </div>
+        <section id="sunGallery" class="sunrise-more">
+            <div class="container"></div>
+            <div class="btn">
+                <img id="prevBtn" class="arrow left" 
+                    src="../03-project-nature-images/svg-corners/corner-bottom-left.svg" alt="svg-arrow">
+                <img id="nextBtn" class="arrow right" src="../03-project-nature-images/svg-corners/corner-top-right.svg"
+                    alt="svg-arrow">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- sunrise-upload-modal including: -->
+    <section id="upload-modal" w3-include-html="sunrise-upload-modal.html"></section>
+
+    <script src="../js/main.js"></script>
+    <!-- <script src="../js/sunrise.js"></script> -->
+    <script type="module" src="../js/sunrise.js"></script>
+</body>
+
+</html>

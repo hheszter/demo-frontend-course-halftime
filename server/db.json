@@ -1,0 +1,349 @@
+{
+  "gallery": [
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "17.01.2021"
+      },
+      "title": "The border",
+      "date": "31.12.2017",
+      "location": [
+        "Africa"
+      ],
+      "url": "../03-project-nature-images/3719e37b51e4a5c43764d34f9b110bcb.jpeg",
+      "author": "Tel Apo",
+      "alt": "forestborder",
+      "id": 1
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "16.01.2021"
+      },
+      "title": "Wildflowers in sunrise",
+      "date": "06.06.2018",
+      "location": [
+        "Europe"
+      ],
+      "url": "../03-project-nature-images/64e04b54d716b0430190857f2733874c.jpeg",
+      "author": "John Doe",
+      "alt": "wildflowers",
+      "id": 2
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "15.01.2021"
+      },
+      "title": "Fire and water",
+      "date": "01.02.2018",
+      "location": [
+        "America",
+        "Canada"
+      ],
+      "url": "../03-project-nature-images/a80647e873eee83a33451f81b14755a0.jpeg",
+      "author": "Jim McDonald",
+      "alt": "lava",
+      "id": 3
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "14.01.2021"
+      },
+      "title": "Boats on the lake",
+      "date": "06.05.2017",
+      "location": [
+        "Indonesia"
+      ],
+      "url": "../03-project-nature-images/e24c90f3a46893f790eecdb7782a1ee3.jpeg",
+      "author": "Birendra Chudal",
+      "alt": "boats on the lake",
+      "id": 4
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "13.01.2021"
+      },
+      "title": "Single tree in desert",
+      "date": "06.10.2018",
+      "location": [
+        "Africa",
+        "Kenya"
+      ],
+      "url": "../03-project-nature-images/67dc897f27cd95fe8401e0e6e96457ba.jpeg",
+      "author": "Jane Forest",
+      "alt": "single tree",
+      "id": 5
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "12.01.2021"
+      },
+      "title": "Pure nature",
+      "date": "13.10.2017",
+      "location": [
+        "Europe",
+        "Italy"
+      ],
+      "url": "../03-project-nature-images/c22bd5964de3d3febfb84d116938d48f.jpeg",
+      "author": "Pablo Piccolo",
+      "alt": "vulcan",
+      "id": 6
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "11.01.2021"
+      },
+      "title": "Green world",
+      "date": "06.06.2018",
+      "location": [
+        "Aprica"
+      ],
+      "url": "https://images.unsplash.com/photo-1580529448475-8ebf21c90d0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "author": "John Doe",
+      "alt": "kaktus",
+      "id": 7
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "12.01.2021"
+      },
+      "title": "Sky in Dolomities",
+      "date": "06.06.2018",
+      "location": [
+        "Europe",
+        "Italy",
+        "Dolomities"
+      ],
+      "url": "https://images.unsplash.com/photo-1572438264891-4678aa238688?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "author": "Johannes Eckert",
+      "alt": "sky",
+      "id": 8
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "12.11.2020"
+      },
+      "title": "Power of nature",
+      "date": "06.06.2018",
+      "location": [
+        "Asia",
+        "Japan"
+      ],
+      "url": "https://images.unsplash.com/photo-1436968188282-5dc61aae3d81?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1353&q=80",
+      "author": "John Doe",
+      "alt": "water",
+      "id": 9
+    },
+    {
+      "upload": {
+        "userId": 2,
+        "date_of_upload": "08.01.2021"
+      },
+      "title": "Giants legs",
+      "date": "06.03.2018",
+      "location": [
+        "America",
+        "Hawaii"
+      ],
+      "url": "https://images.unsplash.com/photo-1492724724894-7464c27d0ceb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "author": "Jacob Owens",
+      "alt": "landscape",
+      "id": 10
+    }
+  ],
+  "sun": [
+    {
+      "url": "https://images.unsplash.com/photo-1556199859-0a5f16d962a8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "title": "Myanmar morning",
+      "date": "06.06.2018",
+      "location": "Naypyidaw, Myanmar",
+      "id": 1
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1584897356466-858d9b6c53d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "title": "Myanmar today",
+      "date": "06.06.2018",
+      "location": "Naypyidaw, Myanmar",
+      "id": 2
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1517072115201-1db1ca3cc193?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80",
+      "title": "Myanmar evening",
+      "date": "06.06.2018",
+      "location": "Naypyidaw, Myanmar",
+      "id": 3
+    },
+    {
+      "url": "https://images.unsplash.com/reserve/Af0sF2OS5S5gatqrKzVP_Silhoutte.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "title": "Love",
+      "date": "06.06.2018",
+      "location": "Badacsony, Hungary",
+      "id": 5
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "title": "Somewhere",
+      "date": "06.06.2018",
+      "location": "Rome, Italy",
+      "id": 4
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1558103286-b6e3c09fdb07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "title": "Somewhere with mountain",
+      "date": "06.06.2018",
+      "location": "Blumenstein, Schweiz",
+      "id": 6
+    },
+    {
+      "title": "Sun on the mountain",
+      "url": "https://images.unsplash.com/photo-1470569584027-67bf7fa60807?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "date": "2010-12-15",
+      "location": "Sněžka, Czech Republic",
+      "id": 7
+    },
+    {
+      "title": "Tesztfotó",
+      "url": "https://images.unsplash.com/photo-1610393307356-ef676733cd2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "date": "2020-12-12",
+      "location": "San Miguel, Mexico",
+      "id": 8
+    },
+    {
+      "title": "Amet soluta sed in ",
+      "url": "https://images.unsplash.com/photo-1517614402569-1578a8aebf47?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "date": "1980-04-29",
+      "location": "Accusamus irure dolo",
+      "userID": "tesztemail@email.com",
+      "id": 9
+    },
+    {
+      "title": "Mount",
+      "url": "https://images.unsplash.com/photo-1492681290082-e932832941e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
+      "date": "2020-11-10",
+      "location": "Mount Cook, New Zeeland",
+      "userID": "pakh.zsuzsanna@gmail.com",
+      "id": 10
+    },
+    {
+      "title": "Sunrise in the air",
+      "url": "https://images.unsplash.com/photo-1445262102387-5fbb30a5e59d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "date": "2020-09-15",
+      "location": "Tahoe, USA",
+      "userID": "pakh.zsuzsanna@gmail.com",
+      "id": 11
+    },
+    {
+      "title": "Sea",
+      "url": "https://images.unsplash.com/photo-1476673160081-cf065607f449?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
+      "date": "2020-06-18",
+      "location": "San Diego, USA",
+      "userID": "pakh.zsuzsanna@gmail.com",
+      "id": 12
+    },
+    {
+      "title": "On the beach",
+      "url": "https://images.unsplash.com/photo-1470596914251-afb0b4510279?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+      "date": "2020-12-10",
+      "location": "Rodeo Beach, USA",
+      "userID": "pakh.zsuzsanna@gmail.com",
+      "id": 13
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1556199859-0a5f16d962a8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "title": "Myanmar morning",
+      "date": "06.06.2018",
+      "location": "Naypyidaw, Myanmar",
+      "id": 14
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1584897356466-858d9b6c53d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "title": "Myanmar today",
+      "date": "06.06.2018",
+      "location": "Naypyidaw, Myanmar",
+      "id": 15
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1517072115201-1db1ca3cc193?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80",
+      "title": "Myanmar evening",
+      "date": "06.06.2018",
+      "location": "Naypyidaw, Myanmar",
+      "id": 16
+    },
+    {
+      "url": "https://images.unsplash.com/reserve/Af0sF2OS5S5gatqrKzVP_Silhoutte.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "title": "Love",
+      "date": "06.06.2018",
+      "location": "Badacsony, Hungary",
+      "id": 17
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "title": "Somewhere",
+      "date": "06.06.2018",
+      "location": "Rome, Italy",
+      "id": 18
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1558103286-b6e3c09fdb07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "title": "Somewhere with mountain",
+      "date": "06.06.2018",
+      "location": "Blumenstein, Schweiz",
+      "id": 19
+    },
+    {
+      "title": "Sun on the mountain",
+      "url": "https://images.unsplash.com/photo-1470569584027-67bf7fa60807?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "date": "2010-12-15",
+      "location": "Sněžka, Czech Republic",
+      "id": 20
+    },
+    {
+      "title": "Tesztfotó",
+      "url": "https://images.unsplash.com/photo-1610393307356-ef676733cd2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "date": "2020-12-12",
+      "location": "San Miguel, Mexico",
+      "id": 21
+    }
+  ],
+  "water": [
+    {
+      "url": "../03-project-nature-images/062a9658aedf338c2e20014cf8d22c57.jpeg",
+      "title": "underwater",
+      "id": 1
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80",
+      "title": "turtle",
+      "id": 2
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1560364897-91578ff41817?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "title": "water and light",
+      "id": 3
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1583839013182-3b46dea4e32b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "title": "life under water",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "name": "TesztUser",
+      "id": "tesztemail@email.com",
+      "password": "Jelszo88"
+    },
+    {
+      "name": "Eszter",
+      "id": "teszt@gmail.com",
+      "password": "Jelszo666"
+    }
+  ]
+}

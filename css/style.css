@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --ng-yellow: #FACD3C;
+    --ng-black: #1A1A1A;
+    --ng-white: #F4F6F7;
+    --ng-grey: #333333;
+}
+
+html, * {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--ng-black);
+    color: var(--ng-white);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+    line-height: 1.2;
+    font-weight: 100;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+/*button and links*/
+.btn-yellow,
+.btn-yellow:focus,
+.btn-yellow:active,
+.btn-yellow:visited {
+    background: var(--ng-black);
+    color: var(--ng-white);
+    width: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    margin: 5px;
+    line-height: 1.2rem;
+    border: 2px solid var(--ng-yellow);
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-yellow:hover {
+    cursor: pointer;
+}
+
+.btn-yellow:disabled {
+    border-color: var(--ng-grey);
+}
+
+.underline {
+    color: var(--ng-white);
+    font-size: 0.8rem;
+    border-bottom: 2px solid var(--ng-yellow);
+    background-image: linear-gradient(120deg, var(--ng-yellow) 0%, var(--ng-yellow) 100%);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    text-decoration: none;
+    transition: background-size .125s ease-in;
+}
+
+.underline:hover {
+    background-size: 100% 100%;
+    color: var(--ng-black);
+    font-weight: 600;
+}
+
+/*yellow corners*/
+.corner.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.corner.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.corner.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* *** header *** */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--ng-black);
+    z-index: 100;
+    border-bottom: 3px solid var(--ng-yellow);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon img {
+    width: 200px;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nav__container {
+    width: calc(100%-200px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+  
+.nav__list {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+  
+.nav__item {
+    text-align: center;
+}
+
+.nav__link {
+    display: block;
+    line-height: 1rem;
+    color: var(--ng-yellow);
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(120deg, var(--ng-yellow) 0%, var(--ng-yellow) 100%);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    text-decoration: none;
+    transition: background-size .125s ease-in;
+}
+
+.nav__link:hover {
+    background-size: 100% 100%;
+    color: var(--ng-black);
+    font-weight: 600;
+}
+
+.nav__hamburger-checkbox {
+    display: none;
+}
+
+.nav__hamburger-checkbox:checked + .nav__list {
+    display: flex;
+}
+
+.nav__hamburger-label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    padding: 0.75rem;
+    width: 3rem;
+    margin: auto;
+}
+
+.nav__hamburger-line {
+    background: var(--ng-yellow);
+    display: block;
+    border-radius: 50px;
+    height: 3px;
+    width: 1.5rem;
+
+    z-index: 111;
+}
+
+@media screen and (min-width: 40em) {
+    .nav__container {
+        align-items: center;
+    }
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+    .nav__hamburger-label {
+        display: none;
+    }
+}
+
+/* *** gallery *** */
+.gallery {
+    text-align: center;
+    padding-top: 1px;
+}
+
+.gallery-title {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.gallery-title h2 {
+    text-align: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.gallery-title hr {
+    width: 30%;
+    height: 3px;
+    border-color: var(--ng-yellow);
+    background: var(--ng-yellow);
+}
+
+.gallery-container {
+    max-width: 1200px;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image {
+    width: 90%;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0.3rem;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover;
+}
+
+.gallery-image img:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    .gallery-title h2 {
+        padding: 0;
+    }
+    .gallery-image img {
+        min-height: auto;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .gallery-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .gallery-image {
+        width: 32%;
+        height: 500px;
+    }
+}
+
+/* *** sunrise *** */
+.sunrise-image {
+    width: 80%;
+    max-width: 600px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.sunrise-image img {
+    width: 100%;
+    transition: all .1s;
+}
+
+.sunrise-image:hover img {
+    transform: scale(0.8, 1.2);
+}
+
+.sunrise-image-border {
+    width: 80%;
+    height: 120%;
+    z-index: 99;
+    border: 3px solid var(--ng-yellow);
+    background: transparent;
+    position: absolute;
+    top: -10%;
+    left: 10%;
+}
+
+.sunrise-text {
+    border: 1px solid var(--ng-yellow);
+    background: transparent;
+    width: 60%;
+    max-width: 400px;
+    margin: 2.5rem auto;
+    padding: 2rem;
+}
+
+.sunrise-text-corner {
+    border: 1px solid var(--ng-black);
+    width: 80%;
+    max-width: 400px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+@media only screen and (min-width:768px) {
+    .sunrise {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .sunrise-image img {
+        height: 100%;
+    }
+    .sunrise-text {
+        width: 70%;
+    }
+    .sunrise-text-corner {
+        margin-left: -10%;
+        background: transparent;
+        border: none;
+    }
+}
+
+
+/* ***underwater*** */
+.underwater-main {
+    width: 80%;
+    margin: 2% auto;
+    margin-top: 150px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.underwater-back {
+    border: 1px solid var(--ng-yellow);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.underwater-text {
+    width: 100%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.underwater-front {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 300px;
+    position: relative;
+}
+
+.underwater-img {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.underwater-img img {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: all .1s;
+}
+
+.underwater-img:hover img {
+    z-index: -1;
+    transform: translate(-2rem, 2rem) scale(0.99, 0.99);
+}
+
+.underwater-image-border {
+    border: 3px solid var(--ng-yellow);
+    background: var(--ng-black);
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.underwater p {
+    padding-left: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .underwater-main {
+        min-height: 450px;
+        flex-direction: row;
+        position: relative;
+    }
+    .underwater-back {
+        width: 80%;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .underwater-text {
+        width: 50%;
+    }
+    .underwater-front {
+        width: 60%;
+        height: 80%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .underwater-main {
+        min-height: 550px;
+    }
+    .underwater-back {
+        height: 80%;
+    }
+    .underwater-text {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .underwater-front {
+        height: 100%;
+    }
+}

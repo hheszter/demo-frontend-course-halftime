@@ -1,0 +1,35 @@
+<form class="uploadForm" action="javascript:void(0)" name="upload">
+    <p id="closeModal"><a href="sunrise.html#sunGallery">✖</a></p>
+    <h1>Upload my sunrise photo</h1>
+    <!-- <p>Please note, that max. filesize is 5MB</p> -->
+    <hr class="top">
+
+    <label for="title">Title of my photo</label>
+    <div class="input-wrapper">
+        <input type="text" placeholder="Enter title" name="title" id="title" required>
+        <small class="error-title">Too long title, max. length is 30 characters!</small>
+    </div>
+
+    <label for="url">Url</label>
+    <div class="input-wrapper">
+        <input type="url" placeholder="Enter url" name="url" id="url" required>
+        <small class="error-url">Invalid url!</small>
+    </div>
+
+    <label for="location">Place</label>
+    <div class="input-wrapper">
+        <input type="location" placeholder="Enter place and country" name="location" id="location" required>
+        <small class="error-location">Invalid place! </small>
+    </div>
+
+    <label for="date">Date</label>
+    <div class="input-wrapper">
+        <input type="date" placeholder="Enter date" name="date" id="date" required>
+        <small class="error-date">Invalid date</small>
+    </div>
+
+    <hr>
+
+    <p>By uploading you agree to our <a href="">Terms & Privacy</a>.</p>
+    <button type="submit" disabled class="btn-yellow submit-button">Upload</button>
+</form>

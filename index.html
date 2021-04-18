@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="National Geographic's Nature Photo Community">
+
+    <title>demo website</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/gallery-modal.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../lib/jquery.mobile.custom.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="icon">
+                <img src="03-project-nature-images/02614d7d102f1a441328312c6d3042ef.png" alt="">
+            </div>
+
+            <div class="nav__container">
+                <input type="checkbox" class="nav__hamburger-checkbox" id="menu">
+                
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#sony-awards" class="nav__link">Gallery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#sunrise" class="nav__link">Sunrise</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#water" class="nav__link">Underwater</a>
+                    </li>
+                </ul>
+                
+                <label for="menu" class="nav__hamburger-label">
+                    <span class="nav__hamburger-line"></span>
+                    <span class="nav__hamburger-line"></span>
+                    <span class="nav__hamburger-line"></span>
+                </label>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="sony-awards" class="gallery">
+            <div class="gallery-title">
+                <h2>Sony World Photography Awards</h2>
+                <hr>
+                <p>We are delighted to reveal the winners of the 2018 Sony World Photography Awards.<br>
+                    Browse the various galleries below to see the full range of stunning imagery from around the world.
+                </p>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-image"></div>
+                <div class="gallery-image"></div>
+                <div class="gallery-image"></div>
+                <div class="gallery-image"></div>
+                <div class="gallery-image"></div>
+                <div class="gallery-image"></div>
+            </div>
+            <div>
+                <button id="view-gallery" class="btn-yellow">VIEW MORE</button>
+            </div>
+        </section>
+
+        <section id="sunrise" class="sunrise">
+            <div class="sunrise-image">
+                <img src="../03-project-nature-images/93cc007ed900e59bafa4995347b8e3e8.jpeg" alt="sunrise">
+                <div class="sunrise-image-border"></div>
+            </div>
+            <div class="sunrise-text-corner">
+                <img class="corner top-right" src="../03-project-nature-images/svg-corners/corner-top-right.svg"
+                    alt="svg-corner">
+                <div class="sunrise-text">
+                    <h3>Golden Sunrise</h3>
+                    <p>This photo was taken during sunrise in Bagan, Myanmar</p>
+                    <div>
+                        <a href="../html/sunrise.html" class="underline">VIEW MORE</a>
+                    </div>
+                </div>
+                <img class="corner bottom-left" src="../03-project-nature-images/svg-corners/corner-bottom-left.svg"
+                    alt="svg-corner">
+            </div>
+        </section>
+
+        <section id="water" class="underwater">
+            <div class="underwater-main">
+                <div class="underwater-back">
+                    <div class="underwater-text">
+                        <h2>25 Amazing Photo Of Life Underwater</h2>
+                        <p>Althought these dolphins are enjoying a feeding frenzy, Lecoeur notes that the sardines upon
+                            which they depend are becoming scarcer -"victims of overfishing and climate change"- and
+                            this
+                            type of hung less predictable.</p>
+                        <a href="../html/underwater.html" class="underline">VIEW MORE</a>
+                    </div>
+                </div>
+                <div class="underwater-front">
+                    <div class="underwater-image-border"></div>
+                    <div class="underwater-img"></div>
+                    <img class="corner bottom-right"
+                        src="../03-project-nature-images/svg-corners/corner-bottom-right.svg" alt="svg-corner">
+                </div>
+
+            </div>
+            <div class="p-div">
+                <p>PHOTOGRAPHY BY MARC HENAUER</p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- gallery-modal -->
+    <section id="gallery-modal"></section>
+
+    <!-- scripts -->
+    <script src="../js/main.js"></script>
+    <script src="../js/gallery.js"></script>
+    <script src="../js/underwater.js"></script>
+</body>
+
+</html>
